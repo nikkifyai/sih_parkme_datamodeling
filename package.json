@@ -1,16 +1,19 @@
 {
-  "name": "sih_project",
-  "version": "1.0.0",
-  "description": "a backenf for sih",
-  "keywords": [
-    "javascript",
-    "backend"
-  ],
-  "license": "ISC",
-  "author": "nikki",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+	"name": "sih_project",
+	"version": "1.0.0",
+	"description": "a backenf for sih",
+	"type": "module",
+	"keywords": [
+		"javascript",
+		"backend"
+	],
+	"license": "ISC",
+	"author": "nikki",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon src/index.js"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.10"
+	}
 }
